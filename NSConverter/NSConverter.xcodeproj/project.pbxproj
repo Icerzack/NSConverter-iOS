@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A63D7E9B28D87F3E00A89753 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63D7E9A28D87F3E00A89753 /* TabBarViewController.swift */; };
+		A63D7E9D28D87FD700A89753 /* UITabBar+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63D7E9C28D87FD700A89753 /* UITabBar+Extension.swift */; };
+		A63D7E9F28D8826000A89753 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63D7E9E28D8826000A89753 /* CalculatorViewController.swift */; };
+		A644DA9728D878C000091402 /* ViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A644DA9628D878C000091402 /* ViewControllerFactory.swift */; };
+		A66C4DBE28DB4B51006E933B /* ConverterVC+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66C4DBD28DB4B51006E933B /* ConverterVC+Extension.swift */; };
+		A66C4DC128DB83A1006E933B /* EasyTipView in Frameworks */ = {isa = PBXBuildFile; productRef = A66C4DC028DB83A1006E933B /* EasyTipView */; };
 		A681111828CF7BA400E0D35B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A681111728CF7BA400E0D35B /* AppDelegate.swift */; };
 		A681111A28CF7BA400E0D35B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A681111928CF7BA400E0D35B /* SceneDelegate.swift */; };
-		A681111C28CF7BA400E0D35B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A681111B28CF7BA400E0D35B /* ViewController.swift */; };
+		A681111C28CF7BA400E0D35B /* ConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A681111B28CF7BA400E0D35B /* ConverterViewController.swift */; };
 		A681111F28CF7BA400E0D35B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A681111D28CF7BA400E0D35B /* Main.storyboard */; };
 		A681112128CF7BA700E0D35B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A681112028CF7BA700E0D35B /* Assets.xcassets */; };
 		A681112428CF7BA700E0D35B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A681112228CF7BA700E0D35B /* LaunchScreen.storyboard */; };
 		A681112F28CF7BA700E0D35B /* NSConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A681112E28CF7BA700E0D35B /* NSConverterTests.swift */; };
 		A681113928CF7BA700E0D35B /* NSConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A681113828CF7BA700E0D35B /* NSConverterUITests.swift */; };
 		A681113B28CF7BA700E0D35B /* NSConverterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A681113A28CF7BA700E0D35B /* NSConverterUITestsLaunchTests.swift */; };
+		A6989A8F28DB1983005EE075 /* NSConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6989A8E28DB1983005EE075 /* NSConverter.swift */; };
+		A6989A9128DB1A3A005EE075 /* ConverterVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6989A9028DB1A3A005EE075 /* ConverterVM.swift */; };
+		A6989A9328DB1A46005EE075 /* CalculatorVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6989A9228DB1A46005EE075 /* CalculatorVM.swift */; };
+		A6989A9528DB2C8F005EE075 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6989A9428DB2C8F005EE075 /* UIColor+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +46,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A63D7E9A28D87F3E00A89753 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		A63D7E9C28D87FD700A89753 /* UITabBar+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITabBar+Extension.swift"; sourceTree = "<group>"; };
+		A63D7E9E28D8826000A89753 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		A644DA9628D878C000091402 /* ViewControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerFactory.swift; sourceTree = "<group>"; };
+		A66C4DBD28DB4B51006E933B /* ConverterVC+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ConverterVC+Extension.swift"; sourceTree = "<group>"; };
 		A681111428CF7BA400E0D35B /* NSConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A681111728CF7BA400E0D35B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A681111928CF7BA400E0D35B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A681111B28CF7BA400E0D35B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A681111B28CF7BA400E0D35B /* ConverterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterViewController.swift; sourceTree = "<group>"; };
 		A681111E28CF7BA400E0D35B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A681112028CF7BA700E0D35B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A681112328CF7BA700E0D35B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +64,10 @@
 		A681113428CF7BA700E0D35B /* NSConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSConverterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A681113828CF7BA700E0D35B /* NSConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSConverterUITests.swift; sourceTree = "<group>"; };
 		A681113A28CF7BA700E0D35B /* NSConverterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSConverterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A6989A8E28DB1983005EE075 /* NSConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSConverter.swift; sourceTree = "<group>"; };
+		A6989A9028DB1A3A005EE075 /* ConverterVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterVM.swift; sourceTree = "<group>"; };
+		A6989A9228DB1A46005EE075 /* CalculatorVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorVM.swift; sourceTree = "<group>"; };
+		A6989A9428DB2C8F005EE075 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A66C4DC128DB83A1006E933B /* EasyTipView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +96,79 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A63D7E9928D87F1B00A89753 /* TabBarVC */ = {
+			isa = PBXGroup;
+			children = (
+				A63D7E9A28D87F3E00A89753 /* TabBarViewController.swift */,
+			);
+			path = TabBarVC;
+			sourceTree = "<group>";
+		};
+		A644DA8F28D8771F00091402 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A6989A9028DB1A3A005EE075 /* ConverterVM.swift */,
+				A6989A9228DB1A46005EE075 /* CalculatorVM.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A644DA9028D8774400091402 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A63D7E9928D87F1B00A89753 /* TabBarVC */,
+				A644DA9528D8779E00091402 /* CalculatorVC */,
+				A644DA9428D8779200091402 /* ConverterVC */,
+				A644DA9628D878C000091402 /* ViewControllerFactory.swift */,
+				A681111D28CF7BA400E0D35B /* Main.storyboard */,
+				A681112228CF7BA700E0D35B /* LaunchScreen.storyboard */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A644DA9128D8774C00091402 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A63D7E9C28D87FD700A89753 /* UITabBar+Extension.swift */,
+				A6989A9428DB2C8F005EE075 /* UIColor+Extension.swift */,
+				A66C4DBD28DB4B51006E933B /* ConverterVC+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A644DA9228D8775300091402 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A6989A8E28DB1983005EE075 /* NSConverter.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A644DA9328D8776D00091402 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A681111728CF7BA400E0D35B /* AppDelegate.swift */,
+				A681111928CF7BA400E0D35B /* SceneDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A644DA9428D8779200091402 /* ConverterVC */ = {
+			isa = PBXGroup;
+			children = (
+				A681111B28CF7BA400E0D35B /* ConverterViewController.swift */,
+			);
+			path = ConverterVC;
+			sourceTree = "<group>";
+		};
+		A644DA9528D8779E00091402 /* CalculatorVC */ = {
+			isa = PBXGroup;
+			children = (
+				A63D7E9E28D8826000A89753 /* CalculatorViewController.swift */,
+			);
+			path = CalculatorVC;
+			sourceTree = "<group>";
+		};
 		A681110B28CF7BA300E0D35B = {
 			isa = PBXGroup;
 			children = (
@@ -99,12 +192,12 @@
 		A681111628CF7BA400E0D35B /* NSConverter */ = {
 			isa = PBXGroup;
 			children = (
-				A681111728CF7BA400E0D35B /* AppDelegate.swift */,
-				A681111928CF7BA400E0D35B /* SceneDelegate.swift */,
-				A681111B28CF7BA400E0D35B /* ViewController.swift */,
-				A681111D28CF7BA400E0D35B /* Main.storyboard */,
+				A644DA9328D8776D00091402 /* Core */,
+				A644DA9228D8775300091402 /* Model */,
+				A644DA9028D8774400091402 /* ViewControllers */,
+				A644DA8F28D8771F00091402 /* ViewModels */,
+				A644DA9128D8774C00091402 /* Extensions */,
 				A681112028CF7BA700E0D35B /* Assets.xcassets */,
-				A681112228CF7BA700E0D35B /* LaunchScreen.storyboard */,
 				A681112528CF7BA700E0D35B /* Info.plist */,
 			);
 			path = NSConverter;
@@ -143,6 +236,9 @@
 			dependencies = (
 			);
 			name = NSConverter;
+			packageProductDependencies = (
+				A66C4DC028DB83A1006E933B /* EasyTipView */,
+			);
 			productName = NSConverter;
 			productReference = A681111428CF7BA400E0D35B /* NSConverter.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +311,9 @@
 				Base,
 			);
 			mainGroup = A681110B28CF7BA300E0D35B;
+			packageReferences = (
+				A66C4DBF28DB83A1006E933B /* XCRemoteSwiftPackageReference "EasyTipView" */,
+			);
 			productRefGroup = A681111528CF7BA400E0D35B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,8 +357,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A681111C28CF7BA400E0D35B /* ViewController.swift in Sources */,
+				A681111C28CF7BA400E0D35B /* ConverterViewController.swift in Sources */,
+				A63D7E9D28D87FD700A89753 /* UITabBar+Extension.swift in Sources */,
+				A6989A8F28DB1983005EE075 /* NSConverter.swift in Sources */,
+				A66C4DBE28DB4B51006E933B /* ConverterVC+Extension.swift in Sources */,
+				A6989A9528DB2C8F005EE075 /* UIColor+Extension.swift in Sources */,
+				A644DA9728D878C000091402 /* ViewControllerFactory.swift in Sources */,
+				A6989A9328DB1A46005EE075 /* CalculatorVM.swift in Sources */,
 				A681111828CF7BA400E0D35B /* AppDelegate.swift in Sources */,
+				A6989A9128DB1A3A005EE075 /* ConverterVM.swift in Sources */,
+				A63D7E9B28D87F3E00A89753 /* TabBarViewController.swift in Sources */,
+				A63D7E9F28D8826000A89753 /* CalculatorViewController.swift in Sources */,
 				A681111A28CF7BA400E0D35B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -602,6 +710,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A66C4DBF28DB83A1006E933B /* XCRemoteSwiftPackageReference "EasyTipView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/teodorpatras/EasyTipView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A66C4DC028DB83A1006E933B /* EasyTipView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A66C4DBF28DB83A1006E933B /* XCRemoteSwiftPackageReference "EasyTipView" */;
+			productName = EasyTipView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A681110C28CF7BA300E0D35B /* Project object */;
 }
